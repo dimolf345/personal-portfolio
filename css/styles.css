@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav-sup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.navbar h2 {
+  color: white;
+}
+
+.row .img-circle {
+  border-radius: 100%;
+}
+
+body {
+  background-color: #e9ecef;
+}
+
+.about-me a, .about-me > .nav-link {
+  color: black;
+  width: 130px;
+  text-align: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white;
+    background-color: teal;
+}
+
+table {
+  vertical-align: middle;
+}
+
+.img-thumbnail {
+  background-color: teal;
+}
+
+footer * {
+  color: white;
+  background-color: #6c757d;
+}
+
+footer .btn {
+  border: 2px solid teal;
+  border-radius: 10px;
+  background-color: teal;
+}
+
+
+@media only screen and (min-width:768px) {
+
+.tab-content {
+  width: 450px;
+  margin: 0 auto;
+}
+
+th {
+  width: 200px;
+   text-align: right;
+ }
+}
+@media only screen and (min-width:1080px) {}
+.job {
+  line-height: 2.5;
+}
+}

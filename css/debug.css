@@ -1,0 +1,14 @@
+/* * {
+  border: 1px solid black;
+}
+
+
+#barra-superiore {
+   border: 2px dotted white;
+} */
+
+
+hr {
+  border: 2px solid teal;
+  border-radius: 3px;
+}
